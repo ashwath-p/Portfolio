@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="../stylesheet/aboutsx.css" />
+    <style>
+        #content {
+            margin-left: 75%;
+        }
+
+        hr {
+            width: 84%;
+        }
+
+        p {
+            font-size: 25px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="../home.html"><button class="back">Back</button></a>
+    <img id="imag" src="../img/moc.png" />
+    <div id="content">
+        <button class="opi" onclick="moc()">Museum of candy</button>
+        <button class="opi1" onclick="sna()">Snake Recreation</button>
+        <button class="opi2" onclick="rgb()">RGB color game</button>
+    </div>
+    <script>
+        var imm = document.getElementById('imag');
+        function moc() {
+            imm.src = "../img/moc.png";
+        }
+        function sna() {
+            imm.src = "../img/ss1.png";
+        }
+        function rgb() {
+            imm.src = "../img/gg1.png";
+        }
+    </script>
+</body>
+
+</html>
