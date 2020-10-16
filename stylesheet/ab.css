@@ -1,0 +1,27 @@
+.opi{
+    outline: none;
+    display: block;
+    font-size: 45px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 25px;
+    margin-bottom: 50px;
+    text-align: center;
+    width: 400px;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    box-shadow:2px 2px 29px 0px rgba(50, 50, 50, 0.34);
+    transition: 0.15s;
+}
+
+.opi:hover{
+    color: black;
+    background-color: white;
+}
+
+#content {
+    margin-left: 60%;
+    margin-top: 12%;
+}
