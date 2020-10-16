@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 95vh;
+    background: black;
+}
+
+.face{
+    position: relative;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background: gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.face::before{
+    content: ' ';
+    position: absolute;
+    top: 180px;
+    height: 70px;
+    width: 150px;
+    background: rgb(255, 155, 155);
+    border-bottom-right-radius: 70px;
+    border-bottom-left-radius: 70px;
+    transition: 0.25s;
+}
+
+.face:hover::before{
+    top: 210px;
+    width: 150px;
+    height: 20px;
+    background: black;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.eyes{
+    position: relative;
+    top: -40px;
+    display: flex;
+}
+
+.eyes .eye{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    display: block;
+    background: white;
+    margin: 0 15px;
+    border-radius: 50%;
+}
+
+.eyes .eye::before
+{
+    content: ' ';
+    position: absolute;
+    top: 50%;
+    left: 25px;
+    transform: translate(-50%,-50%);
+    background: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.above{
+    min-height: 60vh;
+    margin-right: 150px;
+}
+
+
+.below{
+    margin-top: 32vh;
+    margin-left: 150px;
+}
+
+button{
+    outline: none;
+    display: block;
+    font-size: 35px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 250px;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    transition: .25s;
+    margin-top: 30px;
+}
+
+button:hover{
+    color: black;
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+}
