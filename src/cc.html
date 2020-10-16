@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="../stylesheet/aboutsx.css" />
+    <style>
+        #content {
+            margin-left: 75%;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="../home.html"><button class="back">Back</button></a>
+    <img id="imag" src="../img/webdev.png" />
+    <div id="content">
+        <button class="opi" onclick="moc()">WebDev Bootcamp</button>
+        <button class="opi1" onclick="sna()">MySQL Bootcamp</button>
+        <button class="opi2" onclick="rgb()">React JS Bootcamp</button>
+    </div>
+    <script>
+        var imm = document.getElementById('imag');
+        function moc() {
+            imm.src = "../img/webdev.png";
+        }
+        function sna() {
+            imm.src = "../img/mysql.png";
+        }
+        function rgb() {
+            imm.src = "../img/react.png";
+        }
+    </script>
+</body>
+
+</html>

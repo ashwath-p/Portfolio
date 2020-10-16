@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+}
+
+html{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    position: absolute;
+    width: 75%;
+    z-index: 1;
+}
+
+.back{
+    position: fixed;
+    outline: none;
+    display: block;
+    font-size: 20px;
+    border: none;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+    width: 80px;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    z-index: 2;
+    margin-top: 6px;
+    margin-left: 1430px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.opi,.opi1,.opi2{
+    position: fixed;
+    outline: none;
+    display: block;
+    font-size: 20px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+    width: 250px;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    box-shadow:2px 2px 29px 0px rgba(50, 50, 50, 0.34);
+    margin-left: 80px;
+    transition: 0.15s;
+}
+
+.opi:hover{
+    color: black;
+    background-color: white;
+}
+
+.opi{
+    margin-top: 250px;
+}
+
+.opi1{
+    margin-top: 350px;
+}
+
+.opi2{
+    margin-top: 450px;
+}
